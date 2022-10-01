@@ -47,20 +47,27 @@
     text-decoration: none;
 }
 /*Main*/
+.hr1{
+    margin-top: 10px;
+}
 
+
+.hr2{
+    margin-bottom: 10px;
+}
 /*footer*/
 .footer-menu{
     width: 1200px;
-    height: 1em;
+    height: 2em;
     background-color: #FFBA81;
     border-radius: 1%;
     box-shadow: 5px 5px 5px rgba(119, 116, 116, 0.3);
 }
 .row{
-   
+    height: 100%;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 .col1{
     width: 400px;
