@@ -3,6 +3,12 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+body {
+    max-width: max-content;
+    margin: auto;
+    }
 /*header*/
 .top-bar{
     width: 1200px;
@@ -47,33 +53,113 @@
     text-decoration: none;
 }
 /*Main*/
-.hr1{
+main {
+    border-top: 1px solid #1480E8;
+    border-bottom: 1px solid #1480E8;
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*Form*/
+form .row1 {
+    display: flex;
+    height: auto;
 }
 
-.main{
-    width: 840px;
-    margin-right: 10px;
+.hr2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.main .row {
+.row {
     width: 1200px;
     height: auto;
     display: flex;
 }
 .main-col1{
     width: 840px;
-
+    height: auto;
+   
 }
 .main-col1 h1{
     color:#FF9700 ;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+input[type=date],select ,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col45 {
+    width: 45%;
+    margin-top: 6px;  }
+  
+  .col55 {
+    width: 55%;
+    margin-top: 6px;
+  }
+
+  .col45 label {
+    width: 100% !important;
+    text-align: right;
+}
+
+form .gender {
+    display: flex;
+}
+
+form .gender label {
+    width: auto;
 }
 .main-col2{
     width: 360px;
+    margin-top: 10px;
+    margin-bottom: auto;
 }
-.hr2{
-    margin-bottom: 10px;
-}
+
 /*Side*/
 
 .side-content{
@@ -145,4 +231,5 @@ body {
     width: 100%;
     height:  100%;
 }
+
 
