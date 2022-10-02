@@ -59,12 +59,6 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/*Form*/
-form .row1 {
-    display: flex;
-    height: auto;
-}
-
 .hr2{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,22 +84,29 @@ form .row1 {
     
 }
 
+/*Form*/
+form .row1 {
+    display: flex;
+    height: auto;
+}
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    height: 30px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
   }
   
 label {
-    padding: 12px 12px 12px 0;
+    padding: 5px 5px 5px 0;
     display: inline-block;
   }
 input[type=date],select ,textarea{
     width: 100%;
-    padding: 12px;
+    height: 30px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
@@ -159,18 +160,40 @@ form .gender label {
     margin-top: 10px;
     margin-bottom: auto;
 }
+/*table*/
 
+
+.row2 h2{
+    color: #FF9700;
+    font-size: 20px;
+    
+}
+.col01{
+    width: 45%;
+    text-align: right;
+}
+
+.col02{
+    width: 10%;
+}
+.col03{
+    width: 45%;
+    
+}
 /*Side*/
-
+.main-col2{
+    margin-top: 0;
+}
 .side-content{
     display: inline-block;
+   
 }
 .side-content-box{
     width: 360px;
     height: auto;
     border: 2px solid #908A84;
     overflow-wrap: break-word;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     
 }
 .side-content-box .content{
@@ -233,3 +256,40 @@ body {
 }
 
 
+.row2 {
+    display: flex;
+}
+
+.row2 .col01 .list1 {
+    height: auto;
+    padding: 2px 4px 4px 4px;
+    border: 1px solid #ccc;
+
+}
+
+.row2 .col01 .list1 .item {
+    width: 100%;
+    height: 26px;
+    border: 1px solid #ccc;
+    margin-bottom: 2px;
+    text-align: left;
+    background-color: #FFEE76;
+    padding: 2px;
+}
+
+.row2 .col03.list2 {
+    height: auto;
+    padding: 2px 4px 4px 4px;
+    border: 1px solid #ccc;
+
+}
+
+.row2 .col03 .list2 .item {
+    width: 100%;
+    height: 26px;
+    border: 1px solid #ccc;
+    margin-bottom: 2px;
+    text-align: left;
+    background-color: #FFEE76;
+    padding: 2px;
+}
